@@ -85,6 +85,42 @@ aside{
 /*facts.html*/
 /*******************************************/
 
+/*Accordion Facts*/
+.accordion-section {
+	position: relative;
+	width: 100%;
+	height: auto;
+
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.accordion {
+	width: 100%;
+
+	background-color: #eee;
+	color: #444;
+	cursor: pointer;
+	padding: 18px;
+	
+	text-align: center;
+	outline: none;
+	transition: 1s;
+}
+
+.active, .accordion:hover {
+	background-color: #ccc;
+}
+
+.panel {
+	padding: 0 18px
+	background-color: white;
+	display: none;
+	overflow: hidden;
+}
+
+
+/*Flip Cards*/
 #flip-cards-container{
 	width: 100%;
 	display: flex;
